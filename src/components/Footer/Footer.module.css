@@ -1,0 +1,12 @@
+.link {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.link.active {
+  color: grey;
+}
+.link:hover {
+  color: grey;
+}

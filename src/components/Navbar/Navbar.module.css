@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7.5vh;
+  background-color: #f5f5f5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.171);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+.navLink {
+  margin: 0 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: black;
+  margin-left: 30px;
+}
+
+.navLink:hover {
+  color: rgba(0, 0, 0, 0.575);
+}
+
+.signUp {
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 25px;
+  background-color: #1a1a1a;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.item {
+  flex: 1;
+}
+
+@media only screen and (max-width: 900px) {
+  .item:nth-child(2) {
+    display: none;
+  }
+}

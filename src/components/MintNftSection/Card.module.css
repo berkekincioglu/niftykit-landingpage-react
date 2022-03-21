@@ -1,0 +1,21 @@
+.card {
+  width: 30%;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.h2 {
+  font-family: Chivo sans-serif;
+  text-align: left;
+  color: #000;
+}
